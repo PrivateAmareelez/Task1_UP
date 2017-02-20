@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>entity</OriginalElement>
+  <nodes>
+    <node x="202.0" y="373.0">entity.Undergraduate</node>
+    <node x="278.75" y="22.5">entity.Notifiable</node>
+    <node x="214.5" y="147.0">entity.Student</node>
+    <node x="22.25" y="203.0">entity.Academic</node>
+    <node x="370.0" y="339.0">entity.Course</node>
+    <node x="0.0" y="373.0">entity.Postgraduate</node>
+    <node x="31.0" y="0.0">entity.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="entity.Undergraduate" target="entity.Academic">
+      <point x="-37.0" y="-26.0" />
+      <point x="239.0" y="309.0" />
+      <point x="92.0" y="309.0" />
+      <point x="23.25" y="15.0" />
+    </edge>
+    <edge source="entity.Postgraduate" target="entity.Student">
+      <point x="45.5" y="-26.0" />
+      <point x="136.5" y="319.0" />
+      <point x="247.33333333333331" y="319.0" />
+      <point x="-65.66666666666669" y="71.0" />
+    </edge>
+    <edge source="entity.Undergraduate" target="entity.Student">
+      <point x="37.0" y="-26.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="entity.Student" target="entity.Person">
+      <point x="-49.25" y="-71.0" />
+      <point x="263.75" y="122.0" />
+      <point x="144.25" y="122.0" />
+      <point x="37.75" y="48.5" />
+    </edge>
+    <edge source="entity.Student" target="entity.Notifiable">
+      <point x="49.25" y="-71.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="entity.Course" target="entity.Student">
+      <point x="0.0" y="-60.0" />
+      <point x="464.0" y="319.0" />
+      <point x="378.6666666666667" y="319.0" />
+      <point x="65.66666666666669" y="71.0" />
+    </edge>
+    <edge source="entity.Postgraduate" target="entity.Academic">
+      <point x="-45.5" y="-26.0" />
+      <point x="-23.25" y="15.0" />
+    </edge>
+    <edge source="entity.Academic" target="entity.Person">
+      <point x="0.0" y="-15.0" />
+      <point x="-37.75" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="279.0" y="229.5" />
+  <SelectedNodes>
+    <node>entity.Person</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
